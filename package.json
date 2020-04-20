@@ -1,0 +1,26 @@
+{
+  "name": "Hapi-TypeScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "bcrypt": "^4.0.1",
+    "mongoose": "^5.9.6"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/hapi__hapi": "^19.0.2",
+    "@types/mongoose": "^5.7.7",
+    "@types/node": "^12.12.31",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
